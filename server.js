@@ -500,7 +500,7 @@ var server = net.createServer(function(socket) {
         removeSocket(socket);
 
         // Notify all clients
-        broadcast(clientName, message);
+        //broadcast(clientName, message);
     });
     
     //socket.setTimeout(50000);
