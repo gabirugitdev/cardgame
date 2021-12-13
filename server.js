@@ -491,7 +491,7 @@ var server = net.createServer(function(socket) {
     // quando o cliente se desconecta
     socket.on('end', function() {
 
-        var message = clientName + ' left this chat\n';
+        //var message = clientName + ' left this chat\n';
 
         // Log it to the server output
         process.stdout.write(message);
