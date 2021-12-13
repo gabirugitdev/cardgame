@@ -494,7 +494,7 @@ var server = net.createServer(function(socket) {
         //var message = clientName + ' left this chat\n';
 
         // Log it to the server output
-        process.stdout.write(message);
+        //process.stdout.write(message);
 
         // Remove client from socket array
         removeSocket(socket);
